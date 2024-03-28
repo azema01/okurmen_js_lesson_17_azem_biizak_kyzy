@@ -1,0 +1,57 @@
+body {
+    color: #000;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+input {
+    line-height: 32px;
+    width: 300px;
+    font-size: 14px;
+    color: #000;
+    padding: 0 15px;
+}
+
+#autocomplete-list {
+    padding: 0;
+    margin: 0;
+    max-width: 300px;
+
+}
+
+.autocomplete-item {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.autocomplete-item-button {
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    padding: 10px;
+    background: transparent;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.autocomplete-item:last-child .autocomplete-item-button {
+    border: 1px solid #ccc;
+
+}
+
+.flex {
+    display: flex;
+    gap: 50px;
+}

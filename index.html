@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/air-datepicker@3.5.0/air-datepicker.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Autocomplete contries input</h1>
+        <div class="flex">
+            <form autocomplete="off">
+                <div class="autocomplete-block">
+
+                    <input id="input-autocomplete" type="text" placeholder="Enter a country">
+                    <!-- <ul id="autocomplete-list">
+                        <li class="autocomplete-item"><button class="autocomplete-item-button">Kyrgystan</button></li>
+                        <li class="autocomplete-item"><button class="autocomplete-item-button">Brazil</button></li>
+                        <li class="autocomplete-item"><button class="autocomplete-item-button">Canada</button></li>
+                        <li class="autocomplete-item"><button class="autocomplete-item-button">Algeria</button></li>
+                    </ul> -->
+                </div>
+
+            </form>
+            <input id="calendar" type="text">
+        </div>
+        <div class="date">
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/air-datepicker@3.5.0/air-datepicker.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
